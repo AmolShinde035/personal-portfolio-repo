@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Autoplay } from "swiper/modules";
+import { Navigation,Pagination, Autoplay } from "swiper/modules";
 import { motion } from "framer-motion";
 
 import "swiper/css";
@@ -13,12 +13,12 @@ export default function Education() {
       year: "2023"
     },
     {
-      degree: "Bachelor of Engineering (Computer Engineering)",
+      degree: "Bachelor of Engineering",
       institute: "Savitribai Phule Pune University",
       year: "2018 – 2022"
     },
     {
-      degree: "Higher Secondary (HSC)",
+      degree: "Higher Secondary",
       institute: "Maharashtra State Board",
       year: "2016 – 2018"
     }
@@ -30,9 +30,10 @@ export default function Education() {
         <h2 className="text-center fw-bold mb-5">Education</h2>
 
         <Swiper
-          modules={[Pagination, Autoplay]}
-          slidesPerView={1}                 // ✅ One card at a time
+          modules={[Navigation,Pagination, Autoplay]}
+          slidesPerView={1}                 Navigation// ✅ One card at a time
           spaceBetween={30}
+          navigation
           pagination={{ clickable: true }}
           autoplay={{
             delay: 4000,

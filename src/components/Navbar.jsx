@@ -22,7 +22,7 @@ export default function Navbar() {
 
         <div className="collapse navbar-collapse" id="portfolioNavbar">
           <ul className="navbar-nav ms-auto align-items-lg-center">
-            {["home", "about", "skills", "experience", "projects","education",].map(
+            {["home", "about", "skills", "experience", "projects", "education",].map(
               (item) => (
                 <li className="nav-item" key={item}>
                   <a className="nav-link" href={`#${item}`}>
