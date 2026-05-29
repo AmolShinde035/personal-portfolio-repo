@@ -3,8 +3,7 @@
 A modern, responsive personal portfolio website built to showcase my professional experience, skills, and projects.  
 Designed with a clean UI, smooth animations, and dark/light mode support.
 
-🔗 **Live Demo:** https://amol-portfolio.netlify.app  
-
+🔗 **Live Demo:** https://amol-portfolio.netlify.app 
 ---
 
 ## ✨ Features
